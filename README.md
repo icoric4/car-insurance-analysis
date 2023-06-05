@@ -44,6 +44,7 @@ following command:
 ```
 python analyze.py
 ```
+This command generates analysis in form of figures saved in [figures](figures/) folder.
 
 The analysis script will perform various calculations and generate insights
 regarding pricing differences among insurers, demographic breakdowns, location,
