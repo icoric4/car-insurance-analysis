@@ -295,11 +295,6 @@ def main():
         ax = axes[idx]
         insurers_sorted = sorted(prices_by_insurer.keys())
 
-        # print group, insurer and median price for each insurer
-        for insurer in insurers_sorted:
-            print(f'{group} - {insurer}: {np.median(prices_by_insurer[insurer])}')
-
-
         median_all = np.median([np.median(prices_by_insurer[insurer])
                                 for insurer in insurers_sorted])
         diff = [(np.median(prices_by_insurer[insurer]) -
