@@ -9,9 +9,8 @@ import numpy as np
 from matplotlib.colors import LinearSegmentedColormap
 from pymongo import MongoClient
 
+
 matplotlib.use('agg')
-
-
 SIGNIFICANT_PRICE_DIFFERENCE = 50
 
 
